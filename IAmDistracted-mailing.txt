@@ -1,0 +1,6 @@
+[Adblock Plus 2.0]
+! 0002_blog_smartbear_com_1
+! http://blog.smartbear.com/c-plus-plus/the-biggest-changes-in-c11-and-why-you-should-care
+! Internal popup after reading the article and mouse live window.
+! Filter may be excessive. Let's see if someone complains.
+||my.hellobar.com/*.js
