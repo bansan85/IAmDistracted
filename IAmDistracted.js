@@ -13,7 +13,7 @@
 
 // Supprime le div génant
 if (window.location.href.match(/http[s]?:\/\/dzone.com/)) {
-  // 0001_dzone_com_1.sh
+  // Test 0001_dzone_com_1
   var elmDeleted = document.getElementById('emailSubPanel');
   elmDeleted.parentNode.removeChild(elmDeleted);
 }

@@ -1,4 +1,5 @@
 #!/bin/sh
+#Internal popup is showing when scrolling down and asking to subscribe to the newsletter.
 
 echo `curl https://dzone.com/articles/sneak-peak-java-ee-7`| grep -l "emailSubPanel"
 
