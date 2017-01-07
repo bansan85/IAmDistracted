@@ -6,8 +6,8 @@
 // @grant       none
 // @license     https://opensource.org/licenses/MIT
 // @homepage    https://github.com/bansan85/IAmDistracted
-// @updateURL   https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted.js
-// @downloadURL https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted.js
+// @updateURL   https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted.user.js
+// @downloadURL https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted.user.js
 // @run-at      document-end
 // ==/UserScript==
 
