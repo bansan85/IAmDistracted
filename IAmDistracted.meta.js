@@ -12,10 +12,3 @@
 // @grant       none
 // @run-at      document-end
 // ==/UserScript==
-
-// Remove distracting div
-if (window.location.href.match(/http[s]?:\/\/dzone.com/)) {
-  // Test 0001_dzone_com_1
-  var elmDeleted = document.getElementById('emailSubPanel');
-  elmDeleted.parentNode.removeChild(elmDeleted);
-}

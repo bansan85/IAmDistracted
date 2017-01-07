@@ -1,6 +1,6 @@
 # IAmDistracted
 English:
-Help to keep focus while browsing
+Help to keep you focus while browsing.
 
 This GreaseMonkey's script comes on completion with:
   * Adblock Plus with:
