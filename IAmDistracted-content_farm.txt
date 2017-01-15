@@ -3,3 +3,7 @@
 ! http://www.jardiner-malin.fr/fiche/lutte-cochenille.html
 ! Content farm from Taboola.
 ||cdn.taboola.com/libtrc/*
+! 0006_lemonde_com_2
+! http://www.lemonde.fr/
+! Content farm from OutBrain.
+||widgets.outbrain.com/outbrain.js
