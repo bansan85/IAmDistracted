@@ -13,6 +13,8 @@ This GreaseMonkey's script comes on completion with:
     * https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer.user.js
   * Firefox :
     * about:config : accessibility.blockautorefresh : disable auto-refresh.
+  * Chrome :
+    * https://chrome.google.com/webstore/detail/auto-refresh-blocker/nmhmgghfmjjoejobimppckbalonobkck : disable auto-refresh.
 
 Open all .user.js with Firefox and add scripts.
 Add all .txt to Adblockplus.
@@ -31,6 +33,8 @@ Ce script géré par GreaseMonkey vient en complétion de
     * https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer.user.js
   * Firefox :
     * about:config : accessibility.blockautorefresh : désactive le rechargement automatique d'une page.
+  * Chrome :
+    * https://chrome.google.com/webstore/detail/auto-refresh-blocker/nmhmgghfmjjoejobimppckbalonobkck : désactive le rechargement automatique d'une page.
 
 Ouvrez tous les .user.js avec Firefox et ajoutez les scripts.
 Ajoutez tous les .txt à Adblockplus.
