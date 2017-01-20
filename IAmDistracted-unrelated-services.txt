@@ -1,4 +1,4 @@
 [Adblock Plus 2.0]
-! 0007_lemonde_com_3
+! 0007_lemonde_fr_3
 ! http://www.lemonde.fr/ameriques/article/2017/01/15/le-directeur-de-la-cia-conseille-a-trump-de-faire-attention-a-ce-qu-il-dit_5063031_3222.html
 ||lemonde.fr/ajah/5m/lemonde/www/Controller_Module_Widget_Bizdev/actionAfficher/*

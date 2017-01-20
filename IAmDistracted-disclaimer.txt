@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! 0003_lemonde_com_1
+! 0003_lemonde_fr_1
 ! http://www.lemonde.fr/politique/article/2017/01/08/en-correze-le-testament-et-les-regrets-de-francois-hollande_5059375_823448.html
 ! Add "En savoir plus" at every Copy Paste. Fine for Copyright.
 ! Annoying when you try to copy/paste to a chat or a Google search.
