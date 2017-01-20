@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        I Am Distracted - Mailing
+// @name        I Am Distracted - Unrelated services
 // @namespace   https://github.com/bansan85/IAmDistracted.unrelated-services
 // @description Help to keep you focus while browsing. Disabling unrelated services frame.
 // @include     http://*
