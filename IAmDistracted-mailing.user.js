@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        I Am Distracted
-// @namespace   https://github.com/bansan85/IAmDistracted
+// @name        I Am Distracted - Mailing
+// @namespace   https://github.com/bansan85/IAmDistracted.mailing
 // @description Help to keep you focus while browsing. Disabling mailing list.
 // @include     http://*
 // @include     https://*
