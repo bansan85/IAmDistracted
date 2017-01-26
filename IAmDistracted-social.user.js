@@ -8,7 +8,7 @@
 // @homepage    https://github.com/bansan85/IAmDistracted
 // @updateURL   https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted-social.meta.js
 // @downloadURL https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted-social.user.js
-// @version     0.1
+// @version     0.1.1
 // @grant       none
 // @run-at      document-end
 // ==/UserScript==
@@ -26,6 +26,11 @@ function getElementsByClassName(classname)
 if (window.location.href.match(/http[s]?:\/\/www.lemonde.fr/)) {
   // Test 0012_lemonde_fr_6
   var elmDeletedList = getElementsByClassName("fixed-header");
+  for (var i=elmDeletedList.length - 1; i >= 0; i--) {
+    elmDeletedList[i].parentNode.removeChild(elmDeletedList[i]);
+  }
+  // Different class for live
+  elmDeletedList = getElementsByClassName("live-toolbar");
   for (var i=elmDeletedList.length - 1; i >= 0; i--) {
     elmDeletedList[i].parentNode.removeChild(elmDeletedList[i]);
   }
