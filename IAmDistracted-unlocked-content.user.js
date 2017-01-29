@@ -13,22 +13,13 @@
 // @run-at      document-end
 // ==/UserScript==
 
-function getElementsByClassName(classname)
-{
-  var a = [];
-  var re = new RegExp('\\b' + classname + '\\b');
-  var els = document.all ? document.all : document.getElementsByTagName("*");
-  for(var i=0,j=els.length; i<j; i++)
-    if(re.test(els[i].className))a.push(els[i]);
-  return a;
-}
-
-
 if (window.location.href.match(/http[s]?:\/\/observer.com/)) {
   // Test 0014_observer_com_1
-  var elmDeletedList = getElementsByClassName("entry-content");
-  for (var i=elmDeletedList.length - 1; i >= 0; i--) {
-    elmDeletedList[i].className = "__entry-content__";
-  }
+  // The easiest thing would be to rename entry-content to make failed script but simply removes getElementsByClassName fail.
+  var elmDeleted = document.getElementById("hidden");
+  elmDeleted.className = "__hidden__";
+  elmDeleted = document.getElementById("continue");
+  elmDeleted.parentNode.removeChild(elmDeleted);
+  elmDeleted = document.getElementById("fade");
+  elmDeleted.parentNode.removeChild(elmDeleted);
 }
-
