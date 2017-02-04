@@ -1,7 +1,6 @@
 [Adblock Plus 2.0]
 ! 0007_lemonde_fr_3
 ! http://www.lemonde.fr/ameriques/article/2017/01/15/le-directeur-de-la-cia-conseille-a-trump-de-faire-attention-a-ce-qu-il-dit_5063031_3222.html
-||lemonde.fr/ajah/5m/lemonde/www/Controller_Module_Widget_Bizdev/actionAfficher/*
 ! 0013_lemonde_fr_7
 ! http://www.lemonde.fr/primaire-de-la-gauche/live/2017/01/26/primaire-a-gauche-en-direct-la-campagne-de-l-entre-deux-tours-continue-au-lendemain-du-debat_5069236_5008374.html
-||lemonde.fr/ajah/5m/lemonde/www/Controller_Module_General_Footer_Serviciel/*
+||lemonde.fr/ajah/5m/lemonde/www/*
