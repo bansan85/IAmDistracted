@@ -8,6 +8,7 @@ This GreaseMonkey's script comes on completion with:
     * Liste FR+EasyList (include in Adblock Plus),
     * I don't care about cookies (filters obtrusive EU cookie law notices)
     * Prebake (filters obtrusive EU cookie law notices)
+    * Fanboy's Annoyances (filters social popup)
     * ReekSite.com : http://reeksite.com/anti-adblock-killer/#filterlist.
   * GreaseMonkey with:
     * https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer.user.js
@@ -28,6 +29,7 @@ Ce script géré par GreaseMonkey vient en complétion de
     * Liste FR+EasyList (inclus dans Adblock Plus),
     * I don't care about cookies (filtre contre la notification des cookies)
     * Prebake (filtre contre la notification des cookies)
+    * Fanboy's Annoyances (filtre des popup généralement sociaux)
     * ReekSite.com : http://reeksite.com/anti-adblock-killer/#filterlist.
   * GreaseMonkey avec :
     * https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer.user.js
