@@ -1,9 +1,1 @@
 [Adblock Plus 2.0]
-! 0004_www_jardiner-malin_fr_1
-! http://www.jardiner-malin.fr/fiche/lutte-cochenille.html
-! Content farm from Taboola.
-||cdn.taboola.com/libtrc/*
-! 0006_lemonde_fr_2
-! http://www.lemonde.fr/
-! Content farm from OutBrain.
-||widgets.outbrain.com/outbrain.js
