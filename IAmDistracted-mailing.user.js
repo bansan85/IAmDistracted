@@ -8,7 +8,7 @@
 // @homepage    https://github.com/bansan85/IAmDistracted
 // @updateURL   https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted-mailing.meta.js
 // @downloadURL https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted-mailing.user.js
-// @version     0.1.1
+// @version     0.1.2
 // @grant       none
 // @run-at      document-end
 // ==/UserScript==
@@ -23,4 +23,9 @@ else if (window.location.href.match(/http[s]?:\/\/www.tecmint.com/)) {
   // Test 0005_www_tecmint_com_1
   var elmDeleted = document.getElementsByClassName("dgd_stb_box clean_white");
   elmDeleted[0].parentNode.removeChild(elmDeleted[0]);
+}
+else if (window.location.href.match(/http[s]?:\/\/brilliant.org/)) {
+  // Test 0015_brilliant_org_1
+  var elmDeleted = document.getElementById('loggedout-wiki-footer');
+  elmDeleted.parentNode.removeChild(elmDeleted);
 }
