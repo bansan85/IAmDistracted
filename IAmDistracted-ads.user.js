@@ -8,7 +8,7 @@
 // @homepage    https://github.com/bansan85/IAmDistracted
 // @updateURL   https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted-ads.meta.js
 // @downloadURL https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted-ads.user.js
-// @version     0.1.2
+// @version     0.1.3
 // @grant       none
 // @run-at      document-end
 // ==/UserScript==
@@ -30,9 +30,11 @@ if (window.location.href.match(/http[s]?:\/\/www.facebook.com/)) {
   var target = document.getElementById("stream_pagelet");
   var observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutation) {
-      var elmDeletedList = getElementsByClassName("_5g-l");
-      for (var i=elmDeletedList.length - 1; i >= 0; i--) {
-        elmDeletedList[i].parentNode.parentNode.parentNode.parentNode.removeChild(elmDeletedList[i].parentNode.parentNode.parentNode);
+      var items = document.getElementsByClassName("_3e_2");
+      for (var i = items.length-1; i >=0 ; i--) {
+        if (items[i].innerHTML.indexOf("Sponsoris") != -1) {
+          items[i].parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.removeChild(items[i].parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode);
+        }
       }
     });
   });
