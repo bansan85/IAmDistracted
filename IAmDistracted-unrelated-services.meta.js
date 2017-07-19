@@ -8,7 +8,7 @@
 // @homepage    https://github.com/bansan85/IAmDistracted
 // @updateURL   https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted-unrelated-services.meta.js
 // @downloadURL https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted-unrelated-services.user.js
-// @version     0.1.1
+// @version     0.1.2
 // @grant       none
 // @run-at      document-end
 // ==/UserScript==

@@ -8,8 +8,8 @@
 // @homepage    https://github.com/bansan85/IAmDistracted
 // @updateURL   https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted-unrelated-services.meta.js
 // @downloadURL https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted-unrelated-services.user.js
-// @version     0.1.1
-// @grant       none
+// @version     0.1.2
+// @grant       GM_addStyle
 // @run-at      document-end
 // ==/UserScript==
 
@@ -33,3 +33,17 @@ if (window.location.href.match(/http[s]?:\/\/www.lemonde.fr/)) {
     elmDeletedList[i].parentNode.removeChild(elmDeletedList[i]);
   }
 }
+else if (window.location.href.match(/http[s]?:\/\/.*.lefigaro.fr/)) {
+  // Test 0016_lefigaro_fr_1
+  // http://madame.lefigaro.fr/bien-etre/cloudbread-tendance-pain-sans-gluten-ni-farine-110316-113389
+  var elmDeletedList = getElementsByClassName("mad__market__droit");
+  for (var i=elmDeletedList.length - 1; i >= 0; i--) {
+    elmDeletedList[i].parentNode.removeChild(elmDeletedList[i]);
+  }
+  GM_addStyle ( " \
+    .container_sticky { \
+        padding-right: 0px; \
+    } \
+" );
+}
+
