@@ -8,7 +8,7 @@
 // @homepage    https://github.com/bansan85/IAmDistracted
 // @updateURL   https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted-unrelated-services.meta.js
 // @downloadURL https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted-unrelated-services.user.js
-// @version     0.1.2
+// @version     0.1.3
 // @grant       GM_addStyle
 // @run-at      document-end
 // ==/UserScript==
@@ -40,9 +40,13 @@ else if (window.location.href.match(/http[s]?:\/\/.*.lefigaro.fr/)) {
   for (var i=elmDeletedList.length - 1; i >= 0; i--) {
     elmDeletedList[i].parentNode.removeChild(elmDeletedList[i]);
   }
+  // Mise en page
   GM_addStyle ( " \
     .container_sticky { \
         padding-right: 0px; \
+    } \
+    .fig-page__col-left { \
+        width: 100%; \
     } \
 " );
 }
