@@ -18,22 +18,20 @@ function getElementsByClassName(classname)
   var a = [];
   var re = new RegExp('\\b' + classname + '\\b');
   var els = document.all ? document.all : document.getElementsByTagName("*");
-  for(var i=0,j=els.length; i<j; i++)
     if(re.test(els[i].className))a.push(els[i]);
   return a;
 }
 
 if (window.location.href.match(/http[s]?:\/\/www.facebook.com/)) {
   // Test 0009_facebook_com_2
-  var elmDeleted = document.getElementById("substream_1");
-  elmDeleted.parentNode.removeChild(elmDeleted);
   var target = document.getElementById("stream_pagelet");
   var observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutation) {
-      var items = document.getElementsByClassName("_3e_2");
+      var items = document.getElementsByClassName("_14bf");
       for (var i = items.length-1; i >=0 ; i--) {
-        if (items[i].innerHTML.indexOf("Sponsoris") != -1) {
-          items[i].parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.removeChild(items[i].parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode);
+        if (items[i].innerHTML == ("Spons")) {
+          var parentnd = items[i].parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode;
+          parentnd.parentNode.removeChild(parentnd);
         }
       }
     });
