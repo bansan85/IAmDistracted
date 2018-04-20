@@ -8,7 +8,7 @@
 // @homepage    https://github.com/bansan85/IAmDistracted
 // @updateURL   https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted-ads.meta.js
 // @downloadURL https://raw.githubusercontent.com/bansan85/IAmDistracted/master/IAmDistracted-ads.user.js
-// @version     0.1.5
+// @version     0.1.6
 // @grant       none
 // @run-at      document-end
 // ==/UserScript==
@@ -27,7 +27,7 @@ if (window.location.href.match(/http[s]?:\/\/www.facebook.com/)) {
   var target = document.getElementById("stream_pagelet");
   var observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutation) {
-      var items = document.getElementsByClassName("_m8d");
+      var items = document.getElementsByClassName("m_17d-64sp7l");
       for (var i = items.length-1; i >=0 ; i--) {
         if (items[i].innerHTML == ("Publication suggérée")) {
           var parentnd = items[i].parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode;
